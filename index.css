@@ -1,0 +1,52 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(183, 8, 241), rgb(255, 254, 255));
+    background-repeat: no-repeat;
+    padding: 40px;
+    min-height: 100vh;
+
+}
+
+h1 {
+
+    color: azure;
+    margin-bottom: 40px;
+
+}
+
+#oyunDerecesi,
+#zorlukSec {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#oyunBaslat {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+#oyunAlani {
+
+    justify-content: center;
+    /*hucrelerı ortalaması ıcın*/
+    display: grid;
+    /*hucrelerı grıd tanımlıcam cunku benım matris elde etmem lazım*/
+    gap: 2px;
+}
+
+
+.hucre {
+    width: 30px;
+    height: 30px;
+    background-color: #f1efef;
+    font-size: 15px;
+    line-height: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    user-select: none;
+}
